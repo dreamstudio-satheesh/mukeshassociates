@@ -1,5 +1,7 @@
 @extends('layouts.main')
 
+@section('title', 'Architects Engineers India | Consultants | architect engineer in india')
+
 @section('content')
     <script type="text/javascript"
         src="wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min98d4.js?rev=5.4.1"></script>
