@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <!-- LINK TAGS -->
     <link rel="pingback" href="xmlrpc.php" />
-    <title>About Us &#8211; Mukesh &amp; Associates</title>
+    <title>@yield('title') - Mukesh &amp; Associates</title>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&family=Raleway&display=swap"
         rel="stylesheet">
 
