@@ -1,5 +1,7 @@
 @extends('layouts.main')
 
+@section('title', 'Urban Transport & Traffic Improvements')
+
 @section('content')
 
 <header class="rich-header page-header version1" data-parallax="false" style="background-color:#333333;background-image:url(images/urban-transport-new-final.webp);background-repeat:no-repeat;background-position:center bottom;-webkit-background-size: cover;-moz-background-size: cover;background-size: cover;">

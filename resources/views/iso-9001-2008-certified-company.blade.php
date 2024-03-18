@@ -1,5 +1,7 @@
 @extends('layouts.main')
 
+@section('title', 'ISO 9001:2015 Certified')
+
 @section('content')
 
 <header class="rich-header page-header version1" data-parallax="false" style="background-color:#333333;background-image:url(wp-content/uploads/2019/06/isor.jpg);background-repeat:no-repeat;background-position:center center;-webkit-background-size: cover;-moz-background-size: cover;background-size: cover;">

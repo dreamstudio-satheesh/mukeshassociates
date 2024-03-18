@@ -1,5 +1,7 @@
 @extends('layouts.main')
 
+@section('title', 'Quality Council of India')
+
 @section('content')
 
 <header class="rich-header page-header version1" data-parallax="false" style="background-color:#333333;">
