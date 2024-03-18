@@ -2,9 +2,7 @@
     <!-- META TAGS -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <!-- LINK TAGS -->
-    <link rel="pingback" href="xmlrpc.php" />
-    <title>@yield('title') - Mukesh &amp; Associates</title>
+    <title>@yield('title') - Mukesh & Associates</title>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&family=Raleway&display=swap"
         rel="stylesheet">
 
@@ -59,11 +57,8 @@
             margin: 0 !important;
         }
     </style>
-    <meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress." />
-    <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://mukeshassociates.com/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]-->
-    <meta name="generator"
-        content="Powered by Slider Revolution 5.4.1 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
-    <noscript>
+    <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]-->
+  
         <style type="text/css">
             .wpb_animate_when_almost_visible {
                 opacity: 1;
