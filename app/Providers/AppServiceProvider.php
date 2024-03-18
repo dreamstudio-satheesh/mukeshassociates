@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use TCG\Voyager\Facades\Voyager;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -19,6 +20,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        //
+        //Voyager::useModel('DataRow', \App\Models\DataRow::class);
     }
 }
