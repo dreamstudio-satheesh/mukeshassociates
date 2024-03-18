@@ -1,5 +1,7 @@
 @extends('layouts.main')
 
+@section('title', 'Healthcare ')
+
 @section('content')
 
 

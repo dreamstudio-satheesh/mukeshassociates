@@ -1,5 +1,7 @@
 @extends('layouts.main')
 
+@section('title', 'Contact Us')
+
 @section('content')
 
 <header class="rich-header page-header version1" data-parallax="true" style="background-color:#333333;">

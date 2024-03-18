@@ -1,5 +1,7 @@
 @extends('layouts.main')
 
+@section('title', 'Environmental, Social Engineering')
+
 @section('content')
 
 <header class="rich-header page-header version1" data-parallax="true" style="background-color:#f7f7f7;">
