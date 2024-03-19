@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,11 +15,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $homeBanners = DB::table('home_banners')->orderBy('sorting', 'asc')->get();
+    return view('home', compact('homeBanners'));
 });
 
 Route::get('/index', function () {
-    return view('home');
+
+    $homeBanners = DB::table('home_banners')->orderBy('sorting', 'asc')->get();
+    return view('home', compact('homeBanners'));
 });
 
 Route::get('aboutus', function () {

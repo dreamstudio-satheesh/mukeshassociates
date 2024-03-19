@@ -12,198 +12,26 @@
         <!-- START REVOLUTION SLIDER 5.4.1 auto mode -->
         <div id="rev_slider_1_1" class="rev_slider fullwidthabanner tp-overflow-hidden" style="display:none;"
             data-version="5.4.1">
-            <ul> <!-- SLIDE  -->
-                <li data-index="rs-49" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
-                    data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300"
-                    data-thumb="http://mukeshassociates.com/wp-content/uploads/2022/09/b01-1.webp" data-delay="5000"
-                    data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
-                    data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9=""
-                    data-param10="" data-description="">
-                    <!-- MAIN IMAGE -->
-                    <img src="images/b01-1.webp" alt="" title="b01-1" data-bgposition="center center"
-                        data-bgfit="100% 100%" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                    <!-- LAYERS -->
-                </li>
-                <!-- SLIDE  -->
-                <li data-index="rs-50" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
-                    data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300"
-                    data-thumb="http://mukeshassociates.com/wp-content/uploads/2022/09/b02-1.webp" data-delay="5010"
-                    data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
-                    data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9=""
-                    data-param10="" data-description="">
-                    <!-- MAIN IMAGE -->
-                    <img src="images/b02-1.webp" alt="" title="b02-1" data-bgposition="center center"
-                        data-bgfit="100% 100%" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                    <!-- LAYERS -->
-                </li>
-                <!-- SLIDE  -->
-                <li data-index="rs-51" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
-                    data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300"
-                    data-thumb="http://mukeshassociates.com/wp-content/uploads/2022/09/b03-1.webp" data-delay="4990"
-                    data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
-                    data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9=""
-                    data-param10="" data-description="">
-                    <!-- MAIN IMAGE -->
-                    <img src="images/b03-1.webp" alt="" title="b03-1" data-bgposition="center center"
-                        data-bgfit="100% 100%" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                    <!-- LAYERS -->
-                </li>
-                <!-- SLIDE  -->
-                <li data-index="rs-52" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
-                    data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300"
-                    data-thumb="http://mukeshassociates.com/wp-content/uploads/2022/09/b04-1.webp" data-delay="4990"
-                    data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
-                    data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
-                    data-param9="" data-param10="" data-description="">
-                    <!-- MAIN IMAGE -->
-                    <img src="images/b04-1.webp" alt="" title="b04-1" data-bgposition="center center"
-                        data-bgfit="100% 100%" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                    <!-- LAYERS -->
-                </li>
-                <!-- SLIDE  -->
-                <li data-index="rs-53" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
-                    data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300"
-                    data-thumb="http://mukeshassociates.com/wp-content/uploads/2022/09/b05-1.webp" data-delay="4990"
-                    data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
-                    data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
-                    data-param9="" data-param10="" data-description="">
-                    <!-- MAIN IMAGE -->
-                    <img src="images/b05-1.webp" alt="" title="b05-1" data-bgposition="center center"
-                        data-bgfit="100% 100%" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                    <!-- LAYERS -->
-                </li>
-                <!-- SLIDE  -->
-                <li data-index="rs-54" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
-                    data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300"
-                    data-thumb="http://mukeshassociates.com/wp-content/uploads/2022/09/b06-1.webp" data-delay="4990"
-                    data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
-                    data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
-                    data-param9="" data-param10="" data-description="">
-                    <!-- MAIN IMAGE -->
-                    <img src="images/b06-1.webp" alt="" title="b06-1" data-bgposition="center center"
-                        data-bgfit="100% 100%" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                    <!-- LAYERS -->
-                </li>
-                <!-- SLIDE  -->
-                <li data-index="rs-55" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
-                    data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300"
-                    data-thumb="http://mukeshassociates.com/wp-content/uploads/2022/09/b07-1.webp" data-delay="4990"
-                    data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
-                    data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
-                    data-param9="" data-param10="" data-description="">
-                    <!-- MAIN IMAGE -->
-                    <img src="images/b07-1.webp" alt="" title="b07-1" data-bgposition="center center"
-                        data-bgfit="100% 100%" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                    <!-- LAYERS -->
-                </li>
-                <!-- SLIDE  -->
-                <li data-index="rs-56" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
-                    data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300"
-                    data-thumb="http://mukeshassociates.com/wp-content/uploads/2022/09/b08-1.webp" data-delay="5020"
-                    data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
-                    data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
-                    data-param9="" data-param10="" data-description="">
-                    <!-- MAIN IMAGE -->
-                    <img src="images/b08-1.webp" alt="" title="b08-1" data-bgposition="center center"
-                        data-bgfit="100% 100%" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                    <!-- LAYERS -->
-                </li>
-                <!-- SLIDE  -->
-                <li data-index="rs-57" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
-                    data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300"
-                    data-thumb="http://mukeshassociates.com/wp-content/uploads/2022/09/b09-1.webp" data-delay="4990"
-                    data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
-                    data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
-                    data-param9="" data-param10="" data-description="">
-                    <!-- MAIN IMAGE -->
-                    <img src="images/b09-1.webp" alt="" title="b09-1" data-bgposition="center center"
-                        data-bgfit="100% 100%" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                    <!-- LAYERS -->
-                </li>
-                <!-- SLIDE  -->
-                <li data-index="rs-58" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
-                    data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300"
-                    data-thumb="http://mukeshassociates.com/wp-content/uploads/2022/09/b10-1.webp" data-delay="4980"
-                    data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
-                    data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
-                    data-param9="" data-param10="" data-description="">
-                    <!-- MAIN IMAGE -->
-                    <img src="images/b10-1.webp" alt="" title="b10-1" data-bgposition="center center"
-                        data-bgfit="100% 100%" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                    <!-- LAYERS -->
-                </li>
-                <!-- SLIDE  -->
-                <li data-index="rs-59" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
-                    data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300"
-                    data-thumb="http://mukeshassociates.com/wp-content/uploads/2022/09/b11-1.webp" data-delay="5000"
-                    data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
-                    data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
-                    data-param9="" data-param10="" data-description="">
-                    <!-- MAIN IMAGE -->
-                    <img src="images/b11-1.webp" alt="" title="b11-1" data-bgposition="center center"
-                        data-bgfit="100% 100%" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                    <!-- LAYERS -->
-                </li>
-                <!-- SLIDE  -->
-                <li data-index="rs-60" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
-                    data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300"
-                    data-thumb="http://mukeshassociates.com/wp-content/uploads/2022/09/b12-1.webp" data-delay="5010"
-                    data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
-                    data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
-                    data-param9="" data-param10="" data-description="">
-                    <!-- MAIN IMAGE -->
-                    <img src="images/b12-1.webp" alt="" title="b12-1" data-bgposition="center center"
-                        data-bgfit="100% 100%" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                    <!-- LAYERS -->
-                </li>
-                <!-- SLIDE  -->
-                <li data-index="rs-61" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
-                    data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300"
-                    data-thumb="http://mukeshassociates.com/wp-content/uploads/2022/09/b13-1.webp" data-delay="5010"
-                    data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
-                    data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
-                    data-param9="" data-param10="" data-description="">
-                    <!-- MAIN IMAGE -->
-                    <img src="images/b13-1.webp" alt="" title="b13-1" data-bgposition="center center"
-                        data-bgfit="100% 100%" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                    <!-- LAYERS -->
-                </li>
-                <!-- SLIDE  -->
-                <li data-index="rs-62" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
-                    data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300"
-                    data-thumb="http://mukeshassociates.com/wp-content/uploads/2022/09/b14-1.webp" data-delay="5020"
-                    data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
-                    data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
-                    data-param9="" data-param10="" data-description="">
-                    <!-- MAIN IMAGE -->
-                    <img src="images/b14-1.webp" alt="" title="b14-1" data-bgposition="center center"
-                        data-bgfit="100% 100%" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                    <!-- LAYERS -->
-                </li>
-                <!-- SLIDE  -->
-                <li data-index="rs-63" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
-                    data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300"
-                    data-thumb="http://mukeshassociates.com/wp-content/uploads/2022/09/b15-1.webp" data-delay="5020"
-                    data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
-                    data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
-                    data-param9="" data-param10="" data-description="">
-                    <!-- MAIN IMAGE -->
-                    <img src="images/b15-1.webp" alt="" title="b15-1" data-bgposition="center center"
-                        data-bgfit="100% 100%" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                    <!-- LAYERS -->
-                </li>
-                <!-- SLIDE  -->
-                <li data-index="rs-64" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
-                    data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300"
-                    data-thumb="http://mukeshassociates.com/wp-content/uploads/2022/09/b16-1.webp" data-delay="5030"
-                    data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
-                    data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
-                    data-param9="" data-param10="" data-description="">
-                    <!-- MAIN IMAGE -->
-                    <img src="images/b16-1.webp" alt="" title="b16-1" data-bgposition="center center"
-                        data-bgfit="100% 100%" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                    <!-- LAYERS -->
-                </li>
+            <ul> 
+                @foreach ($homeBanners as $item)
+
+                 <!-- SLIDE  -->
+                 <li data-index="rs-{{ $item->id }}" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
+                 data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300"
+                 data-thumb="{{ url('') }}/storage/{{ $item->image }}" data-delay="5000"
+                 data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
+                 data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9=""
+                 data-param10="" data-description="">
+                 <!-- MAIN IMAGE -->
+                 <img src="{{ url('') }}/storage/{{ $item->image }}" alt="" title="b01-1" data-bgposition="center center"
+                     data-bgfit="100% 100%" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                 <!-- LAYERS -->
+             </li>
+                    
+                @endforeach
+               
+             
+            
             </ul>
             <script>
                 var htmlDiv = document.getElementById("rs-plugin-settings-inline-css");
