@@ -1,363 +1,86 @@
-@extends('layouts.main')
+@extends('layouts.home')
+
+
+@push('styles')
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+<style>
+    .swiper-button-prev, .swiper-button-next {
+    color: black; /* Change as needed */
+    background: rgba(255, 255, 255, 0.5); /* Optional: Adds background */
+    border-radius: 50%; /* Optional: Rounds the buttons */
+}
+
+</style>
+@endpush
+
+
+@push('scripts')
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<script>
+    var swiper = new Swiper('.swiper-container', {
+      direction: 'horizontal',
+      loop: true,
+  
+      // Autoplay configuration
+      autoplay: {
+        delay: 2500, // Time between slide changes in milliseconds
+        disableOnInteraction: false, // Continue autoplay after the user interacts with the slider
+      },
+  
+      // Enable pagination with progress bar
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'progressbar',
+      },
+  
+      // Navigation arrows
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+  
+
+@endpush
 
 @section('title', 'Architects Engineers India | Consultants | architect engineer in india')
 
 @section('content')
-    <script type="text/javascript"
-        src="wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min98d4.js?rev=5.4.1"></script>
-    <script type="text/javascript"
-        src="wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min98d4.js?rev=5.4.1"></script>
-    <div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-source="gallery"
-        style="margin:0px auto;background:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
-        <!-- START REVOLUTION SLIDER 5.4.1 auto mode -->
-        <div id="rev_slider_1_1" class="rev_slider fullwidthabanner tp-overflow-hidden" style="display:none;"
-            data-version="5.4.1">
-            <ul> <!-- SLIDE  -->
-                <li data-index="rs-49" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
-                    data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300"
-                    data-thumb="http://mukeshassociates.com/wp-content/uploads/2022/09/b01-1.webp" data-delay="5000"
-                    data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
-                    data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9=""
-                    data-param10="" data-description="">
-                    <!-- MAIN IMAGE -->
-                    <img src="images/b01-1.webp" alt="" title="b01-1" data-bgposition="center center"
-                        data-bgfit="100% 100%" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                    <!-- LAYERS -->
-                </li>
-                <!-- SLIDE  -->
-                <li data-index="rs-50" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
-                    data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300"
-                    data-thumb="http://mukeshassociates.com/wp-content/uploads/2022/09/b02-1.webp" data-delay="5010"
-                    data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
-                    data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9=""
-                    data-param10="" data-description="">
-                    <!-- MAIN IMAGE -->
-                    <img src="images/b02-1.webp" alt="" title="b02-1" data-bgposition="center center"
-                        data-bgfit="100% 100%" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                    <!-- LAYERS -->
-                </li>
-                <!-- SLIDE  -->
-                <li data-index="rs-51" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
-                    data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300"
-                    data-thumb="http://mukeshassociates.com/wp-content/uploads/2022/09/b03-1.webp" data-delay="4990"
-                    data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
-                    data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9=""
-                    data-param10="" data-description="">
-                    <!-- MAIN IMAGE -->
-                    <img src="images/b03-1.webp" alt="" title="b03-1" data-bgposition="center center"
-                        data-bgfit="100% 100%" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                    <!-- LAYERS -->
-                </li>
-                <!-- SLIDE  -->
-                <li data-index="rs-52" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
-                    data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300"
-                    data-thumb="http://mukeshassociates.com/wp-content/uploads/2022/09/b04-1.webp" data-delay="4990"
-                    data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
-                    data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
-                    data-param9="" data-param10="" data-description="">
-                    <!-- MAIN IMAGE -->
-                    <img src="images/b04-1.webp" alt="" title="b04-1" data-bgposition="center center"
-                        data-bgfit="100% 100%" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                    <!-- LAYERS -->
-                </li>
-                <!-- SLIDE  -->
-                <li data-index="rs-53" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
-                    data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300"
-                    data-thumb="http://mukeshassociates.com/wp-content/uploads/2022/09/b05-1.webp" data-delay="4990"
-                    data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
-                    data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
-                    data-param9="" data-param10="" data-description="">
-                    <!-- MAIN IMAGE -->
-                    <img src="images/b05-1.webp" alt="" title="b05-1" data-bgposition="center center"
-                        data-bgfit="100% 100%" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                    <!-- LAYERS -->
-                </li>
-                <!-- SLIDE  -->
-                <li data-index="rs-54" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
-                    data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300"
-                    data-thumb="http://mukeshassociates.com/wp-content/uploads/2022/09/b06-1.webp" data-delay="4990"
-                    data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
-                    data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
-                    data-param9="" data-param10="" data-description="">
-                    <!-- MAIN IMAGE -->
-                    <img src="images/b06-1.webp" alt="" title="b06-1" data-bgposition="center center"
-                        data-bgfit="100% 100%" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                    <!-- LAYERS -->
-                </li>
-                <!-- SLIDE  -->
-                <li data-index="rs-55" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
-                    data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300"
-                    data-thumb="http://mukeshassociates.com/wp-content/uploads/2022/09/b07-1.webp" data-delay="4990"
-                    data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
-                    data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
-                    data-param9="" data-param10="" data-description="">
-                    <!-- MAIN IMAGE -->
-                    <img src="images/b07-1.webp" alt="" title="b07-1" data-bgposition="center center"
-                        data-bgfit="100% 100%" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                    <!-- LAYERS -->
-                </li>
-                <!-- SLIDE  -->
-                <li data-index="rs-56" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
-                    data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300"
-                    data-thumb="http://mukeshassociates.com/wp-content/uploads/2022/09/b08-1.webp" data-delay="5020"
-                    data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
-                    data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
-                    data-param9="" data-param10="" data-description="">
-                    <!-- MAIN IMAGE -->
-                    <img src="images/b08-1.webp" alt="" title="b08-1" data-bgposition="center center"
-                        data-bgfit="100% 100%" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                    <!-- LAYERS -->
-                </li>
-                <!-- SLIDE  -->
-                <li data-index="rs-57" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
-                    data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300"
-                    data-thumb="http://mukeshassociates.com/wp-content/uploads/2022/09/b09-1.webp" data-delay="4990"
-                    data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
-                    data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
-                    data-param9="" data-param10="" data-description="">
-                    <!-- MAIN IMAGE -->
-                    <img src="images/b09-1.webp" alt="" title="b09-1" data-bgposition="center center"
-                        data-bgfit="100% 100%" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                    <!-- LAYERS -->
-                </li>
-                <!-- SLIDE  -->
-                <li data-index="rs-58" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
-                    data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300"
-                    data-thumb="http://mukeshassociates.com/wp-content/uploads/2022/09/b10-1.webp" data-delay="4980"
-                    data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
-                    data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
-                    data-param9="" data-param10="" data-description="">
-                    <!-- MAIN IMAGE -->
-                    <img src="images/b10-1.webp" alt="" title="b10-1" data-bgposition="center center"
-                        data-bgfit="100% 100%" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                    <!-- LAYERS -->
-                </li>
-                <!-- SLIDE  -->
-                <li data-index="rs-59" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
-                    data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300"
-                    data-thumb="http://mukeshassociates.com/wp-content/uploads/2022/09/b11-1.webp" data-delay="5000"
-                    data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
-                    data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
-                    data-param9="" data-param10="" data-description="">
-                    <!-- MAIN IMAGE -->
-                    <img src="images/b11-1.webp" alt="" title="b11-1" data-bgposition="center center"
-                        data-bgfit="100% 100%" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                    <!-- LAYERS -->
-                </li>
-                <!-- SLIDE  -->
-                <li data-index="rs-60" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
-                    data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300"
-                    data-thumb="http://mukeshassociates.com/wp-content/uploads/2022/09/b12-1.webp" data-delay="5010"
-                    data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
-                    data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
-                    data-param9="" data-param10="" data-description="">
-                    <!-- MAIN IMAGE -->
-                    <img src="images/b12-1.webp" alt="" title="b12-1" data-bgposition="center center"
-                        data-bgfit="100% 100%" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                    <!-- LAYERS -->
-                </li>
-                <!-- SLIDE  -->
-                <li data-index="rs-61" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
-                    data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300"
-                    data-thumb="http://mukeshassociates.com/wp-content/uploads/2022/09/b13-1.webp" data-delay="5010"
-                    data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
-                    data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
-                    data-param9="" data-param10="" data-description="">
-                    <!-- MAIN IMAGE -->
-                    <img src="images/b13-1.webp" alt="" title="b13-1" data-bgposition="center center"
-                        data-bgfit="100% 100%" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                    <!-- LAYERS -->
-                </li>
-                <!-- SLIDE  -->
-                <li data-index="rs-62" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
-                    data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300"
-                    data-thumb="http://mukeshassociates.com/wp-content/uploads/2022/09/b14-1.webp" data-delay="5020"
-                    data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
-                    data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
-                    data-param9="" data-param10="" data-description="">
-                    <!-- MAIN IMAGE -->
-                    <img src="images/b14-1.webp" alt="" title="b14-1" data-bgposition="center center"
-                        data-bgfit="100% 100%" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                    <!-- LAYERS -->
-                </li>
-                <!-- SLIDE  -->
-                <li data-index="rs-63" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
-                    data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300"
-                    data-thumb="http://mukeshassociates.com/wp-content/uploads/2022/09/b15-1.webp" data-delay="5020"
-                    data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
-                    data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
-                    data-param9="" data-param10="" data-description="">
-                    <!-- MAIN IMAGE -->
-                    <img src="images/b15-1.webp" alt="" title="b15-1" data-bgposition="center center"
-                        data-bgfit="100% 100%" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                    <!-- LAYERS -->
-                </li>
-                <!-- SLIDE  -->
-                <li data-index="rs-64" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
-                    data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300"
-                    data-thumb="http://mukeshassociates.com/wp-content/uploads/2022/09/b16-1.webp" data-delay="5030"
-                    data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
-                    data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
-                    data-param9="" data-param10="" data-description="">
-                    <!-- MAIN IMAGE -->
-                    <img src="images/b16-1.webp" alt="" title="b16-1" data-bgposition="center center"
-                        data-bgfit="100% 100%" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                    <!-- LAYERS -->
-                </li>
-            </ul>
-            <script>
-                var htmlDiv = document.getElementById("rs-plugin-settings-inline-css");
-                var htmlDivCss = "";
-                if (htmlDiv) {
-                    htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
-                } else {
-                    var htmlDiv = document.createElement("div");
-                    htmlDiv.innerHTML = "<style>" + htmlDivCss + "</style>";
-                    document.getElementsByTagName("head")[0].appendChild(htmlDiv.childNodes[0]);
-                }
-            </script>
-            <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
+    <div class="page-content-wrap">
+        <div class="rev_slider_wrapper fullwidthbanner-container">
+            <!-- Swiper -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide">
+                        <img src="images/b01-1.webp" alt="Slide 1" style="width:100%;">
+                    </div>
+                    <!-- Slide 2 -->
+                    <div class="swiper-slide">
+                        <img src="images/b02-1.webp" alt="Slide 2" style="width:100%;">
+                    </div>
+                    <!-- Slide 3 -->
+                    <div class="swiper-slide">
+                        <img src="images/b03-1.webp" alt="Slide 3" style="width:100%;">
+                    </div>
+                    <!-- Add more slides as needed -->
+                    <!-- Slide 4 -->
+                    <div class="swiper-slide">
+                        <img src="images/b04-1.webp" alt="Slide 4" style="width:100%;">
+                    </div>
+                    <!-- Repeat for other images -->
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Navigation -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+
         </div>
-        <script>
-            var htmlDiv = document.getElementById("rs-plugin-settings-inline-css");
-            var htmlDivCss = "";
-            if (htmlDiv) {
-                htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
-            } else {
-                var htmlDiv = document.createElement("div");
-                htmlDiv.innerHTML = "<style>" + htmlDivCss + "</style>";
-                document.getElementsByTagName("head")[0].appendChild(htmlDiv.childNodes[0]);
-            }
-        </script>
-        <script type="text/javascript">
-            /******************************************
-        				-	PREPARE PLACEHOLDER FOR SLIDER	-
-        			******************************************/
-
-            var setREVStartSize = function() {
-                try {
-                    var e = new Object,
-                        i = jQuery(window).width(),
-                        t = 9999,
-                        r = 0,
-                        n = 0,
-                        l = 0,
-                        f = 0,
-                        s = 0,
-                        h = 0;
-                    e.c = jQuery('#rev_slider_1_1');
-                    e.gridwidth = [1240];
-                    e.gridheight = [820];
-
-                    e.sliderLayout = "auto";
-                    if (e.responsiveLevels && (jQuery.each(e.responsiveLevels, function(e, f) {
-                            f > i && (t = r = f, l = e), i > f && f > r && (r = f, n = e)
-                        }), t > r && (l = n)), f = e.gridheight[l] || e.gridheight[0] || e.gridheight, s = e.gridwidth[l] ||
-                        e.gridwidth[0] || e.gridwidth, h = i / s, h = h > 1 ? 1 : h, f = Math.round(h * f), "fullscreen" ==
-                        e.sliderLayout) {
-                        var u = (e.c.width(), jQuery(window).height());
-                        if (void 0 != e.fullScreenOffsetContainer) {
-                            var c = e.fullScreenOffsetContainer.split(",");
-                            if (c) jQuery.each(c, function(e, i) {
-                                    u = jQuery(i).length > 0 ? u - jQuery(i).outerHeight(!0) : u
-                                }), e.fullScreenOffset.split("%").length > 1 && void 0 != e.fullScreenOffset && e
-                                .fullScreenOffset.length > 0 ? u -= jQuery(window).height() * parseInt(e.fullScreenOffset,
-                                    0) / 100 : void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 && (u -=
-                                    parseInt(e.fullScreenOffset, 0))
-                        }
-                        f = u
-                    } else void 0 != e.minHeight && f < e.minHeight && (f = e.minHeight);
-                    e.c.closest(".rev_slider_wrapper").css({
-                        height: f
-                    })
-
-                } catch (d) {
-                    console.log("Failure at Presize of Slider:" + d)
-                }
-            };
-
-            setREVStartSize();
-
-            var tpj = jQuery;
-
-            var revapi1;
-            tpj(document).ready(function() {
-                if (tpj("#rev_slider_1_1").revolution == undefined) {
-                    revslider_showDoubleJqueryError("#rev_slider_1_1");
-                } else {
-                    revapi1 = tpj("#rev_slider_1_1").show().revolution({
-                        sliderType: "standard",
-                        jsFileLocation: "//mukeshassociates.com/wp-content/plugins/revslider/public/assets/js/",
-                        sliderLayout: "auto",
-                        dottedOverlay: "none",
-                        delay: 9000,
-                        navigation: {
-                            keyboardNavigation: "off",
-                            keyboard_direction: "horizontal",
-                            mouseScrollNavigation: "off",
-                            mouseScrollReverse: "default",
-                            onHoverStop: "off",
-                            arrows: {
-                                style: "hesperiden",
-                                enable: true,
-                                hide_onmobile: false,
-                                hide_onleave: false,
-                                tmp: '',
-                                left: {
-                                    h_align: "left",
-                                    v_align: "center",
-                                    h_offset: 20,
-                                    v_offset: 0
-                                },
-                                right: {
-                                    h_align: "right",
-                                    v_align: "center",
-                                    h_offset: 20,
-                                    v_offset: 0
-                                }
-                            }
-                        },
-                        visibilityLevels: [1240, 1024, 778, 480],
-                        gridwidth: 1240,
-                        gridheight: 820,
-                        lazyType: "none",
-                        shadow: 0,
-                        spinner: "spinner0",
-                        stopLoop: "off",
-                        stopAfterLoops: -1,
-                        stopAtSlide: -1,
-                        shuffle: "off",
-                        autoHeight: "off",
-                        disableProgressBar: "on",
-                        hideThumbsOnMobile: "off",
-                        hideSliderAtLimit: 0,
-                        hideCaptionAtLimit: 0,
-                        hideAllCaptionAtLilmit: 0,
-                        debugMode: false,
-                        fallbacks: {
-                            simplifyAll: "off",
-                            nextSlideOnWindowFocus: "on",
-                            disableFocusListener: false,
-                        }
-                    });
-                }
-            }); /*ready*/
-        </script>
-        <script>
-            var htmlDivCss = unescape(
-                ".hesperiden.tparrows%20%7B%0A%09cursor%3Apointer%3B%0A%09background%3Argba%280%2C0%2C0%2C0.5%29%3B%0A%09width%3A40px%3B%0A%09height%3A40px%3B%0A%09position%3Aabsolute%3B%0A%09display%3Ablock%3B%0A%09z-index%3A100%3B%0A%20%20%20%20border-radius%3A%2050%25%3B%0A%7D%0A.hesperiden.tparrows%3Ahover%20%7B%0A%09background%3Argba%280%2C%200%2C%200%2C%201%29%3B%0A%7D%0A.hesperiden.tparrows%3Abefore%20%7B%0A%09font-family%3A%20%22revicons%22%3B%0A%09font-size%3A20px%3B%0A%09color%3Argb%28255%2C%20255%2C%20255%29%3B%0A%09display%3Ablock%3B%0A%09line-height%3A%2040px%3B%0A%09text-align%3A%20center%3B%0A%7D%0A.hesperiden.tparrows.tp-leftarrow%3Abefore%20%7B%0A%09content%3A%20%22%5Ce82c%22%3B%0A%20%20%20%20margin-left%3A-3px%3B%0A%7D%0A.hesperiden.tparrows.tp-rightarrow%3Abefore%20%7B%0A%09content%3A%20%22%5Ce82d%22%3B%0A%20%20%20%20margin-right%3A-3px%3B%0A%7D%0A"
-                );
-            var htmlDiv = document.getElementById('rs-plugin-settings-inline-css');
-            if (htmlDiv) {
-                htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
-            } else {
-                var htmlDiv = document.createElement('div');
-                htmlDiv.innerHTML = '<style>' + htmlDivCss + '</style>';
-                document.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);
-            }
-        </script>
-    </div><!-- END REVOLUTION SLIDER -->
-
+    </div>
     <!-- content start -->
     <div id="nz-content" class='content nz-clearfix padding-false'>
         <div class='container page-full-width'>

@@ -4,6 +4,10 @@
 
 @include('layouts.head')
 
+@stack('styles')
+</head>
+
+
 <body
     class="page-template page-template-page-vc page-template-page-vc-php page page-id-3142 wpb-js-composer js-comp-ver-5.1.1 vc_responsive">
     <!-- general wrap start -->
@@ -288,6 +292,9 @@
     <script type='text/javascript' src='wp-includes/js/wp-embed.min9dff.js?ver=5.3.2'></script>
     <script type='text/javascript'
         src='wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min3c21.js?ver=5.1.1'></script>
+
+        @stack('scripts')
+
 
 </body>
 
