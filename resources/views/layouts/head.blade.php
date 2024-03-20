@@ -20,35 +20,34 @@
             padding: 0 !important;
         }
     </style>
-    <link rel='stylesheet' id='wp-block-library-css' href='wp-includes/css/dist/block-library/style.min9dff.css?ver=5.3.2'
+    <link rel='stylesheet' id='wp-block-library-css' href='wp-includes/css/dist/block-library/style.min9dff.css'
         type='text/css' media='all' />
     <link rel='stylesheet' id='contact-form-7-css'
-        href='wp-content/plugins/contact-form-7/includes/css/styles3c21.css?ver=5.1.1' type='text/css' media='all' />
+        href='wp-content/plugins/contact-form-7/includes/css/styles3c21.css' type='text/css' media='all' />
     <link rel='stylesheet' id='rs-plugin-settings-css'
-        href='wp-content/plugins/revslider/public/assets/css/settingsc225.css?ver=5.4.1' type='text/css'
+        href='wp-content/plugins/revslider/public/assets/css/settingsc225.css' type='text/css'
         media='all' />
     <style id='rs-plugin-settings-inline-css' type='text/css'>
         #rs-demo-id {}
     </style>
-    <link rel='stylesheet' id='dynamic-styles-css' href='css/dynamic-styles9dff.css?ver=5.3.2' type='text/css'
+    <link rel='stylesheet' id='dynamic-styles-css' href='css/dynamic-styles9dff.css' type='text/css'
         media='all' />
 
     <link rel='stylesheet' id='dynamic-styles-inline-css' href='css/page.css' type='text/css' media='all' />
 
-    <link rel='stylesheet' id='icomoon-css' href='css/icomoon9dff.css?ver=5.3.2' type='text/css' media='all' />
-    <link rel='stylesheet' id='header-im-css' href='css/header-im9dff.css?ver=5.3.2' type='text/css' media='all' />
-    <link rel='stylesheet' id='lifefitness-style-css' href='style9dff.css?ver=5.3.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='icomoon-css' href='css/icomoon9dff.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='header-im-css' href='css/header-im9dff.css' type='text/css' media='all' />
     <link rel='stylesheet' id='js_composer_front-css'
-        href='wp-content/plugins/js_composer/assets/css/js_composer.min3c21.css?ver=5.1.1' type='text/css'
+        href='wp-content/plugins/js_composer/assets/css/js_composer.min3c21.css' type='text/css'
         media='all' />
-    <script type='text/javascript' src='wp-includes/js/jquery/jquery4a5f.js?ver=1.12.4-wp'></script>
-    <script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min330a.js?ver=1.4.1'></script>
+    <script type='text/javascript' src='wp-includes/js/jquery/jquery4a5f.js'></script>
+    <script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min330a.js'></script>
     <script type='text/javascript'
-        src='wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.minc225.js?ver=5.4.1'></script>
+        src='wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.minc225.js'></script>
     <script type='text/javascript'
-        src='wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.minc225.js?ver=5.4.1'></script>
+        src='wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.minc225.js'></script>
 
-    <script type='text/javascript' src='js/modernizr9dff.js?ver=5.3.2'></script>
+    <script type='text/javascript' src='js/modernizr9dff.js'></script>
 
     <style type="text/css">
         .recentcomments a {
