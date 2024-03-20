@@ -60,29 +60,29 @@
                                         <h6 class="widget_title">OVERVIEW</h6>
                                         <div class="textwidget custom-html-widget">
                                             <ul style="font-size:10px; font-weight:300; line-height:7px">
-                                                <li><a href="index.html">HOME</a></li>
+                                                <li><a href="{{ url('') }}">HOME</a></li>
                                                 <li>
-                                                    <a href="aboutus.html">ABOUT US</a>
+                                                    <a href="aboutus">ABOUT US</a>
                                                 </li>
                                                 <li>
-                                                    <a href="services.html">SERVICES</a>
+                                                    <a href="services">SERVICES</a>
                                                 </li>
                                                 <li>
-                                                    <a href="clients.html">CLIENTS</a>
+                                                    <a href="clients">CLIENTS</a>
                                                 </li>
                                                 <li>
-                                                    <a href="international-associates.html">INTERNATIONAL
+                                                    <a href="international-associates">INTERNATIONAL
                                                         ASSOCIATES</a>
                                                 </li>
                                                 <li>
-                                                    <a href="iso-9001-2008-certified-company.html">ISO 9001:2015
+                                                    <a href="iso-9001-2008-certified-company">ISO 9001:2015
                                                         CERTIFIED</a>
                                                 </li>
                                                 <li>
-                                                    <a href="iso-140012015-certified.html">ISO 14001:2015 CERTIFIED</a>
+                                                    <a href="iso-140012015-certified">ISO 14001:2015 CERTIFIED</a>
                                                 </li>
                                                 <li>
-                                                    <a href="quality-council-of-india.html">QUALITY COUNCIL OF
+                                                    <a href="quality-council-of-india">QUALITY COUNCIL OF
                                                         INDIA</a>
                                                 </li>
                                             </ul>
@@ -92,15 +92,14 @@
                                         <h6 class="widget_title">SECTOR</h6>
                                         <div class="textwidget custom-html-widget">
                                             <ul style="font-size:10px; font-weight:300; line-height:7px">
-                                                <li><a href="industrial.html"> INDUSTRIAL</a></li>
-                                                <li> <a href="institutional.html">INSTITUTIONAL </a></li>
-                                                <li><a href="commercial-corporate.html">COMMERCIAL</a> </li>
-                                                <li><a href="healthcare.html">HEALTHCARE </a></li>
-                                                <li><a href="residential.html">RESIDENTIAL </a></li>
-                                                <li><a href="petroleum.html">PETROLEUM</a></li>
-                                                <li><a href="tourism-heritage-conservation.html">TOURISM INFRASTRUCTURE
+                                                <li><a href="industrial"> INDUSTRIAL</a></li>
+                                                <li><a href="commercial-corporate">COMMERCIAL</a> </li>
+                                                <li><a href="healthcare">HEALTHCARE </a></li>
+                                                <li><a href="residential-2">RESIDENTIAL </a></li>
+                                                <li><a href="petroleum-2">PETROLEUM</a></li>
+                                                <li><a href="tourism-heritage-conservation">TOURISM INFRASTRUCTURE
                                                     </a></li>
-                                                <li><a href="roads-bridges-urban-transport.html">ROADS & BRIDGES</a>
+                                                <li><a href="roads-bridges-urban-transport">ROADS & BRIDGES</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -109,22 +108,22 @@
                                         <div class="textwidget custom-html-widget">
                                             <div style="height:35px"></div>
                                             <ul style="font-size:10px; font-weight:300; line-height:7px">
-                                                <li> <a href="urban-transport-traffic-improvements.html">URBAN
+                                                <li> <a href="urban-transport-traffic-improvements">URBAN
                                                         TRANSPORT </a></li>
-                                                <li><a href="urban-municipal-engineering.html">URBAN / MUNICIPAL
+                                                <li><a href="urban-municipal-engineering">URBAN / MUNICIPAL
                                                         ENGG</a></li>
-                                                <li> <a href="water-supply-sewerage-waste-water-solid-waste.html">WATER
+                                                <li> <a href="water-supply-sewerage-waste-water-solid-waste">WATER
                                                         SUPPLY & SEWERAGE </a></li>
-                                                <li><a href="environmental-social-engineering.html">ENVIRONMENTAL
+                                                <li><a href="environmental-social-engineering">ENVIRONMENTAL
                                                         ENGINEERING </a></li>
-                                                <li><a href="irrigation-water-resources.html">IRRIGATION & WATER
+                                                <li><a href="irrigation-water-resources">IRRIGATION & WATER
                                                         RESOURCE </a></li>
-                                                <li><a href="coastal-engineering-climate-adaptation.html">COASTAL
+                                                <li><a href="coastal-engineering-climate-adaptation">COASTAL
                                                         ENGINEERING </a></li>
-                                                <li><a href="education-skills-development.html">SKILL DEVELOPMENT </a>
+                                                <li><a href="education-skills-development">SKILL DEVELOPMENT </a>
                                                 </li>
                                                 <li><a
-                                                        href="geographical-information-system-gis-remote-sensing-rs.html">MIS
+                                                        href="geographical-information-system-gis-remote-sensing-rs">MIS
                                                         / GIS & REMOTE SENSING </a></li>
                                             </ul>
                                         </div>
@@ -132,13 +131,13 @@
                                     <div id="custom_html-5" class="widget_text widget widget_custom_html">
                                         <div class="textwidget custom-html-widget">
                                             <div style="height:5px"></div>
-                                            <h6 class="widget_title"><a href="contact.html"
+                                            <h6 class="widget_title"><a href="contact"
                                                     style="color:#ff9900">OFFICES</a></h6>
                                             <div style="height:15px"></div>
-                                            <h6 class="widget_title"><a href="careers/index.html"
+                                            <h6 class="widget_title"><a href="careers/index"
                                                     style="color:#ff9900">CAREERS</a></h6>
                                             <div style="height:15px"></div>
-                                            <h6 class="widget_title"><a href="contact.html"
+                                            <h6 class="widget_title"><a href="contact"
                                                     style="color:#ff9900">CONTACT</a></h6>
                                         </div>
                                     </div>
